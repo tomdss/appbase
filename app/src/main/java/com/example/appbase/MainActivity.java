@@ -17,5 +17,7 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         LoginViewModel loginViewModel = new LoginViewModel();
         activityMainBinding.setLoginViewModel(loginViewModel);
+
+        // main up 1
     }
 }
